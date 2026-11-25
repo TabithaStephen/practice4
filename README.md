@@ -23,3 +23,11 @@ git log --oneline --graph --all
 
 git rebase origin/main
 git status
+vi app.txt
+git add app.txt
+cat app.txt
+git rebase --continue
+
+git status
+git log --oneline --graph
+git push origin main
